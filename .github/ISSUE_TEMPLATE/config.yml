@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/Nexarion-Technologies/.github/security/policy
+    about: Review the security policy before reporting a vulnerability. Do not disclose an unpatched vulnerability publicly.
+  - name: Commercial or private-environment inquiry
+    url: https://www.nexariontechnologies.com/contact
+    about: Public issues are not a support channel for private environments, contracts, or confidential work.

@@ -1,0 +1,43 @@
+name: Feature proposal
+description: Propose a bounded improvement to a published demonstration.
+title: "[Proposal]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or reviewer need
+      description: Describe the problem without assuming a particular implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Explain the public contract, expected behavior, and evidence required.
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Boundaries and non-goals
+      description: State what authority, data, integrations, or production behavior this proposal must not add.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation approach
+      description: Identify tests, fixtures, evidence, documentation, and failure cases needed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: publication
+    attributes:
+      label: Publication check
+      options:
+        - label: The proposal can be demonstrated with synthetic or explicitly approved public data.
+          required: true
+        - label: The proposal does not require disclosure of private source, client systems, credentials, or unpublished Keystone specifications.
+          required: true
